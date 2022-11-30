@@ -1,6 +1,29 @@
+.heading {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 img {
     display: block;
     max-width: 100%;
+    width: 30%;
     height: auto;
     margin: 0 auto;
   }
+
+figcaption {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+
+.list {
+    text-align: center;
+    background-color: lightgray;
+}
