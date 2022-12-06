@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Oswald; 
 
 }
 
@@ -19,13 +19,12 @@ img {
 figcaption {
     text-align: center;
     padding: 20px 0px;
-
-    background-color: lightgray;
+    background-color: #eeeeee;
 }
 
 .main-list {
     width: 100%;
-    background-color: lightgray;
+    background-color: #eeeeee;
 }
 
 .list {
@@ -37,4 +36,13 @@ figcaption {
 
 * {
     margin: 0;
+}
+
+.wishes {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    padding-top: 10px;
 }
