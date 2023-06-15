@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="normalize.css" />
   <link rel="stylesheet" href="styles.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <title id="title">The Best Cat Ever</title>
   </head>
   <body>
-    <main id="main">
+    <main id="main" class="container">
       <div class="heading">
         <h1>Anfisa</h1>
         <p>The Best Cat Ever</p>
       </div>
-      <div id="img-div" class="image">
-        <img id="image" src="Anfisa.jpg">
-        <figcaption id="img-caption">Anfisa plays with her favourite ball</figcaption>
-      </div>
+      <figure id="img-div" class="image">
+        <img id="image" src="img/Anfisa.jpg">
+        <figcaption>Anfisa plays with her favourite ball</figcaption>
+      </figure>
       <div class="list">
         <h2>Here's a time line of Anfisa's life</h2>
         <ul>
@@ -30,27 +36,11 @@
       </div>
       <div class="wishes">
         <p class="about">I wasn't the best pet owner but it was the best 7 years in my live. I hope you had fun too. I love you, rest in peace!</p>
-        <selection id="tribute-info">
-          <h3>If you have a time, you can read more about how incridble Anfisa was in
-            <a href="https://twitter.com/DamilolaKoi/status/1597984218600345600?s=20&t=NcTnayzo17zB9z92foS87A" id="tribute-link" target="_blank">my twitter</a>.
-          </h3>
-        </selection>
       </div>
     </main>
-    <!--divs for CSS background animation-->
-    <div class="paw-print-left">
-      <div class="pad big-left"></div>
-      <div class="pad small-left-1"></div>
-      <div class="pad small-left-2"></div>
-      <div class="pad small-left-3"></div>
-      <div class="pad small-left-4"></div>
-    </div>
-    <div class="paw-print-right">
-      <div class="pad big-right"></div>
-      <div class="pad small-right-1"></div>
-      <div class="pad small-right-2"></div>
-      <div class="pad small-right-3"></div>
-      <div class="pad small-right-4"></div>
-    </div>
+		<div class="frames">
+			<img class="paw-1" src="img/pet-paw.png">
+			<img class="paw-2" src="img/pet-paw.png">
+		</div>
   </body>
 </html>
